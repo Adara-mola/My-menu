@@ -1,0 +1,23 @@
+body {
+    background-color: #fff
+
+}
+.recipeHeading {
+    text-align: center;
+    color: brown;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recipeTitle {
+    flex-wrap: wrap;
+    text-align: center;
+    color: brown;
+    font-weight: 300;
+    font-size: 12px;
+}
