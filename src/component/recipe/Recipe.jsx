@@ -4,7 +4,7 @@ import './Recipe.css'
 
 const Recipe= (props) => {
   const [recipes, setRecipes] = useState([]);
-  const url = `https://api.spoonacular.com/recipes/complexSearch?apiKey=65e9dc25af3c4c41b0d6f5723047d61c&query=${props.query}&number=50`;
+  const url = `https://api.spoonacular.com/recipes/complexSearch?apiKey=65e9dc25af3c4c41b0d6f5723047d61c&query=${props.query}&number=60`;
  
   useEffect(() => {
     const fetchData = async () => {
